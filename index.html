@@ -226,6 +226,7 @@
 
     $(function(){
         $.get(api + '/getinfo', function(data){
+	    console.log(data);	
             lastStats = JSON.parse(data);
             routePage(fetchLiveStats);
         });
