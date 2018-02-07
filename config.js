@@ -1,4 +1,4 @@
-var api = 'http://69.172.229.230:80';
+var api = 'https://69.172.229.230:443';
 var blockTargetInterval = 180;
 var coinUnits = 10000000000;
 var symbol = 'FLC';
