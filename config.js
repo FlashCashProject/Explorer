@@ -1,4 +1,4 @@
-var api = 'https://66.172.11.116:443/index.php';
+var api = 'https://flashcash.ml/index.php';
 var blockTargetInterval = 180;
 var coinUnits = 10000000000;
 var symbol = 'FLC';
