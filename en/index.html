@@ -9,25 +9,25 @@
    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.4.0/jquery.timeago.min.js"></script>
    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
-   <link href="/css/themes/white/style.css" rel="stylesheet" id="theme_link">
+   <link href="/Explorer/css/themes/white/style.css" rel="stylesheet" id="theme_link">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
-     <script src="/config.js"></script>
+     <script src="/Explorer/config.js"></script>
 </head>
 <body>
 <script>
 
-	var blockchainExplorer 	= "/en/?hash={id}#blockchain_block";
-	var transactionExplorer = "/en/?hash={id}#blockchain_transaction";
-	var paymentIdExplorer 	= "/en/?hash={id}#blockchain_payment_id";
+	var blockchainExplorer 	= "/Explorer/en/?hash={id}#blockchain_block";
+	var transactionExplorer = "/Explorer/en/?hash={id}#blockchain_transaction";
+	var paymentIdExplorer 	= "/Explorer/en/?hash={id}#blockchain_payment_id";
 	
 	var style_cookie_name = "style";
 	var style_cookie_duration = 365;
 	var style_domain = window.location.hostname;
 	
 	$(function(){
-		$('.theme-switch[rel="/css/themes/white/style.css"]').hide();
+		$('.theme-switch[rel="/Explorer/css/themes/white/style.css"]').hide();
 		set_style_from_cookie();
 		
 		$('.theme-switch').click(function() {
@@ -283,12 +283,12 @@
                     <i class="fa fa-code" aria-hidden="true"></i> API
                 </a></li>
 
- 			    <li><a  class="hot_link" href="/">
+ 			    <li><a  class="hot_link" href="/Explorer">
                     <i class="fa fa-language" aria-hidden="true"></i> UA
                 </a></li>
 				
-				<button rel="/css/themes/dark/style.css" class="btn btn-default theme-switch" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Switch to Night Mode"><i class="fa fa-moon-o"></i></button>
-				<button rel="/css/themes/white/style.css" class="btn btn-default theme-switch" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Switch to Day Mode"><i class="fa fa-sun-o"></i></button>
+				<button rel="/Explorer/css/themes/dark/style.css" class="btn btn-default theme-switch" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Switch to Night Mode"><i class="fa fa-moon-o"></i></button>
+				<button rel="/Explorer/css/themes/white/style.css" class="btn btn-default theme-switch" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Switch to Day Mode"><i class="fa fa-sun-o"></i></button>
 				
 	<!-- //-->			
 
