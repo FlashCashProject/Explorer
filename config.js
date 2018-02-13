@@ -6,13 +6,13 @@ var refreshDelay = 30000;
 // pools stats by MainCoins
 var networkStat = {
     "krb": [
-	["krb.dreampool.info", "https://krb.dreampool.info/api"]
+	["", ""]
 		
     ]
 };
 
 var networkStat2 = {
     "krb": [
-		["karbowanec.hashvault.pro", "https://karbowanec.hashvault.pro/api"]
+		["", ""]
 		]
 };
